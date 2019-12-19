@@ -1,0 +1,24 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "Optra E2E cypress Test",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "cypres open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MubbrraInam/Optra-E2E-Cypress-Testing.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Mubbrra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MubbrraInam/Optra-E2E-Cypress-Testing/issues"
+  },
+  "homepage": "https://github.com/MubbrraInam/Optra-E2E-Cypress-Testing#readme"
+}
