@@ -1,5 +1,5 @@
 import LoginPage from '../pages/login_page.js'
-import LandingPage from '../pages/landing_page.js'
+//import LandingPage from '../pages/landing_page.js'
 
 describe('Login tests', () => {
   beforeEach(()=> {
