@@ -1,5 +1,10 @@
-import HelperFunctions from '../helpers/helper_functions'
-import LandingPage from './landing_page.js.js'
+class LandingPage {
+  
+    getButton() {
+    return cy.getButton('.dropdown-toggle nav-link').invoke.LandingPage
+    
 
-describe('landing page tests', function () {
-  const landingPage = new LandingPage()
+  
+}
+
+export default LandingPage
