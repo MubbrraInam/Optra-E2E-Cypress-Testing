@@ -1,10 +1,5 @@
 import LoginPage from '../pages/login_page.js'
-<<<<<<< HEAD
 import LandingPage from '../pages/landing_page.js'
-=======
-//import LandingPage from '../pages/landing_page.js'
->>>>>>> 612ed340cfd1f2638f59bd1e86b967e0c6415c01
-
 
 describe('Login tests', () => {
   beforeEach(()=> {
