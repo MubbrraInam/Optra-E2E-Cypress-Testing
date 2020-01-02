@@ -1,10 +1,12 @@
 class LandingPage {
   
-    getButton() {
-    return cy.getButton('.dropdown-toggle nav-link').invoke.LandingPage
-    
+    getProfileButton() {
+        return cy.get('.nav-link [title="Volta"]')
+    }
 
-  
+    getSideMenu() {
+        return cy.get('.userSidemenu')
+    }
 }
 
-export default LandingPage
+export default new LandingPage

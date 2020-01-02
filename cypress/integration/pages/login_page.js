@@ -1,16 +1,16 @@
 class LoginPage {
   
-    LoginForm() {
-      cy.get('.modal-content:nth-child(2)').find('#signInFormUsername').first().type('qa2@gmail.com')  
-      cy.get('.modal-content:nth-child(2)').find('#signInFormPassword').first().type('testpassword')  
+    LoginForm(email, password) {
+      cy.get('.visible-md #signInFormUsername').type(email)
+      cy.get('.visible-md #signInFormPassword').type(password)
     }
 
     submitLoginForm() {
-      cy.get('.modal-content:nth-child(2)').find('input[type="submit"]').first().click();  
+      cy.get('.visible-md [name="signInSubmitButton"]').click();  
     }
 }
 
-export default LoginPage
+export default new LoginPage
 
   
   

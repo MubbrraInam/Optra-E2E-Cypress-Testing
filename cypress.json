@@ -1,1 +1,10 @@
-{"chromeWebSecurity": false}
+{
+    "chromeWebSecurity": false,
+    "baseUrl": "https://optra-test.auth.us-east-2.amazoncognito.com/login?response_type=code&client_id=5u5q09kfc7p2cnc70jk0k6n98e&redirect_uri=https://optra.demosites.cf/callback",
+    "env": {
+        "USERNAME": "qa2+0@gmail.com",
+        "PASSWORD": "testpassword"
+    },
+    "requestTimeout": 7000,
+    "responseTimeout": 7000
+}
