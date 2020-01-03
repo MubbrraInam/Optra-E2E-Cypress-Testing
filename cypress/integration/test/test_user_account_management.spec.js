@@ -44,7 +44,7 @@ describe('Login tests', () => {
             .and('contain', title)
     })
 
-    it.only('tests the field validation on My Account form', () => {
+    it('tests the field validation on My Account form', () => {
         const lengthyString = uuidv4().substr(-31)
         
         landingPage.openAccountManagement()
