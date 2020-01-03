@@ -37,10 +37,40 @@ describe('Login tests', () => {
             
             //Bookmar selected station
             cy.get('.detail-holder button').click()
-       
-       
-       
-       
+            
+            
+            
+            // Go to hamburger side menu
+            cy.get('.btn-bar.btn.btn-link').click()
+
+            //Click on bookmarked station
+            //cy.get('.saved-opener.open button ').click()
+            cy.get('button[class*="border border-0 text-light p-0  float-right btn btn-link"]:eq(0)').click()
+            cy.get('.nav.bookmark-btn').click({force: true})
+            
+    it('lets the user to share bookmarked station ', () => {
+                        
+            // Go to hamburger side menu
+             cy.get('.btn-bar.btn.btn-link').click()
+
+             //Click on bookmarked station
+             //cy.get('.saved-opener.open button ').click()
+             cy.get('button[class*="border border-0 text-light p-0  float-right btn btn-link"]:eq(0)').click()
+             cy.get('.nav.bookmark-btn').click({force: true})
+             cy.get('.sidebarFooter button').click()
+             cy.get('input[id="title"]').type('Share Station Search')
+             cy.get('.css-1wa3eu0-placeholder ').click().type('<admin@gmail.com> {enter}')
+
+             cy.get('button[class*="btn btn-info  btn-filled btn btn-light"]:eq(2)').click()
+
+            // Go to hamburger side menu
+            cy.get('.btn-bar.btn.btn-link').click()
+            cy.get('button[class*="border border-0 text-light p-0  float-right btn btn-link"]:eq(2)').click()
+            cy.get('.sidebarBtn').click()
+
+            // Go to manage account My Recent Activity
+            cy.get('.dropdown-float-right.hide-carrot.profile.dropdown.nav-item').click()
+            cy.get('[href="/manage_account"]').click()
        
         })
    
