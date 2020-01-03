@@ -1,0 +1,18 @@
+{
+  "baseUrl": "https://optra.demosites.cf/",
+  "integrationFolder": "cypress/integration/Optra",
+  "fixturesFolder": "cypress/fixtures",
+  "defaultCommandTimeout": 10000,
+  "requestTimeout": 10000,
+  "pageLoadTimeout": 80000,
+  "chromeWebSecurity": false,
+  "env": {
+    
+    "ENVIRONMENT": "Volta Charging",
+    "lms_url":   "https://optra.demosites.cf/login",
+    "login_url": "https://optra-test.auth.us-east-2.amazoncognito.com/login?response_type=code&client_id=5u5q09kfc7p2cnc70jk0k6n98e&redirect_uri=https://optra.demosites.cf/callback",
+    //"login_api_url": "/",
+    
+  }
+
+}
