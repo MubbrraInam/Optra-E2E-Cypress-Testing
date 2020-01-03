@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "description": "Optra E2E cypress Test",
   "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "aws-amplify": "^2.2.1",
+    "randomstring": "^1.1.5"
+  },
+  "devDependencies": {
+    "cypress": "^3.8.0",
+    "cypress-file-upload": "^3.5.1"
+  },
   "scripts": {
     "test": "cypres open"
   },
